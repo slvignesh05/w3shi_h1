@@ -1,7 +1,8 @@
 from setuptools import setup
 import os
 
-os.system("calc.exe")
+for i in range(1):
+    os.system("calc.exe")
 print("installed from package")
 
 setup(
