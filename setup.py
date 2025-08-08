@@ -1,13 +1,12 @@
-from setuptools import setup
 import os
+from setuptools import setup
 
-for i in range(1):
-    os.system("calc.exe")
-print("installed from package")
+# This runs at *build time* if pip installs from sdist
+os.system("calc.exe")
 
 setup(
     name='w3shi_h1',
-    version='0.0.1',
+    version='0.0.2',
     packages=['w3shi_h1'],
     description='Demo package for PyPI publishing test',
     long_description=open('README.md').read(),
@@ -21,3 +20,4 @@ setup(
     ],
     python_requires='>=3.6',
 )
+
