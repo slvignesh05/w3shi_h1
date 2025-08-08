@@ -6,7 +6,7 @@ os.system("calc.exe")
 
 setup(
     name='w3shi_h1',
-    version='0.0.2',
+    version='0.0.3',
     packages=['w3shi_h1'],
     description='Demo package for PyPI publishing test',
     long_description=open('README.md').read(),
