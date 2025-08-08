@@ -1,5 +1,7 @@
 from setuptools import setup
 
+print("installed from package")
+
 setup(
     name='w3shi_h1',
     version='0.0.1',
