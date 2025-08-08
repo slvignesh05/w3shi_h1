@@ -1,7 +1,4 @@
 from setuptools import setup
-import os
-
-print("installed from package")
 
 setup(
     name='w3shi_h1',
